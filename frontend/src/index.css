@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@layer components {
+  .form-input {
+    @apply block w-full rounded-md border-0 px-2 py-1 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-500 focus:ring-2 focus:ring-inset focus:ring-orange-600 xs:px-3 xs:py-2 sm:text-sm sm:leading-6;
+  }
+}
+
+@layer components {
+  .form-label {
+    @apply block text-sm font-medium capitalize leading-6 text-gray-900;
+  }
+}
+
+@layer components {
+  .hero_btn {
+    @apply inline-flex items-center rounded-lg bg-orange-600 px-5 py-3 hover:bg-orange-500 hover:text-gray-100 focus:outline-none;
+  }
+}
+
+@layer components {
+  .price-card-btn {
+    @apply mt-auto flex w-full items-center rounded-md border-0 bg-orange-400 px-4 py-2 text-white hover:bg-orange-500 focus:outline-none;
+  }
+}
+
+@layer components {
+  .reg-form-input {
+    @apply mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm;
+  }
+}
+
+@layer components {
+  .reg-form-button {
+    @apply inline-block shrink-0 rounded-md border-orange-600 bg-orange-600 px-12 py-3 text-sm font-medium text-white transition-all delay-200 duration-200 hover:bg-transparent hover:text-orange-600 focus:outline-none focus:ring active:text-orange-500;
+  }
+}
+
+@layer components {
+  .price-plan-button {
+    @apply rounded-full px-2 py-2 text-sm leading-none focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-offset-2 xs:px-2 xs:py-2 xs:text-sm md:px-3 md:py-2 md:text-sm lg:px-6 lg:py-4 lg:text-base;
+  }
+}
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
