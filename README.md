@@ -2,7 +2,7 @@
 
 ## Food delivery application
 
-**Note:
+**Note: If need to see my repository then visit the below links ⤵
 ### Food Delivery API Backend repo link [https://github.com/Abhijit47/Capstone-food-delivery-backend.git]
 
 ### Food Delivery Frontend Repository Link [https://github.com/Abhijit47/Capstone-food-delivery-frontend.git]
