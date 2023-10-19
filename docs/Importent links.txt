@@ -1,4 +1,10 @@
+POSTMAN API Documentation
 https://documenter.getpostman.com/view/24175396/2s9YR9ZYtE
+Screenshot link
 https://prnt.sc/QFzfiFw7_bJi
+
+Frontend repo link
 https://github.com/Abhijit47/Capstone-food-delivery-frontend.git
+
+Backend repo link
 https://github.com/Abhijit47/Capstone-food-delivery-backend.git
